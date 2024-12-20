@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <a href="index.html">&#x2190; Home</a>
+        <h1>Contact Me</h1>
+    </header>
+
+
+    <nav>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p><strong>Name:</strong> Your Name</p>
+            <p><strong>Address:</strong> 1234 Street Name, City, Country</p>
+            <p><strong>Email:</strong> <a href="mailto:yourname@hotmail.com">yourname@hotmail.com</a></p>
+            <p><strong>Phone:</strong> +123-456-7890</p>
+        </div>
+
+        <form action="/send-email" method="post">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Email</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+<script src="example.js"></script>
+</html>
